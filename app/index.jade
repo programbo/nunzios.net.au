@@ -1,0 +1,42 @@
+extends layouts/default
+
+block content
+  .container.visible-xs-block
+    .features.row
+      a.feature.feature--location(href="https://www.google.com.au/maps/dir//20+Essex+St,+Fremantle+WA+6160", target="_blank")
+        span.icon.icon-location
+        strong 20 Essex St Fremantle
+        | (get directions)
+      a.feature.feature--phone(href="tel://0862195441")
+        span.icon.icon-phone
+        strong Make a booking
+        | (08) 6219 5441
+      a.alt-contact(href="tel://0405480959")
+        .or.icon-mobile
+        | 0405 480 959
+      a.alt-contact(href="m&#97;ilt&#111;&#58;&#105;&#110;&#102;%6F&#64;&#37;6&#69;unz&#37;6&#57;o&#37;73%2E%6E%&#54;&#53;t&#46;a%75")
+        .or.icon-envelop
+        | &#105;&#110;fo&#64;n&#117;&#110;zi&#111;&#115;&#46;net&#46;au
+      a.feature.feature--menu(href="#", target="_blank")
+        span.icon.icon-spoon-knife
+        strong View our menu
+  .container
+    .row.blurb-wrapper
+      .blurb.col-xs-12.col-sm-8.col-sm-offset-2
+        p A stone&rsquo;s throw away from the hustle and bustle of the cappuccino strip, Nunzio&rsquo;s is situated in a charming heritage building on Essex st.
+        p You will be spoilt for choice with our authentic Italian cuisine, including a range of fresh local produce, homemade pasta and our specialised pastry chef to tempt you with our selection of desserts.
+        p Visit us today for exceptional service and a dining experience to remember.
+  .container.plates-container
+    .plates.row
+      .plate.plate--1.col-xs-4.col-sm-2
+        img(src="images/plate1.jpg")
+      .plate.plate--2.col-xs-4.col-sm-2
+        img(src="images/plate2.jpg")
+      .plate.plate--3.col-xs-4.col-sm-2
+        img(src="images/plate3.jpg")
+      .plate.plate--4.col-xs-4.col-sm-2
+        img(src="images/plate4.jpg")
+      .plate.plate--5.col-xs-4.col-sm-2
+        img(src="images/plate5.jpg")
+      .plate.plate--6.col-xs-4.col-sm-2
+        img(src="images/plate6.jpg")
